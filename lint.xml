@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak">
+        <ignore path="src\com\sns\service\buttonlistener\UpdatePersonalButtonListener.java" />
+        <ignore path="src\com\sns\view\AlbumListActivity.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src\com\sns\service\asynctask\LoginTask.java" />
+        <ignore path="src\com\sns\view\PersonalActivity.java" />
+    </issue>
+    <issue id="SdCardPath">
+        <ignore path="src\com\sns\view\UpdatePersonalActivity.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src\com\sns\service\asynctask\UpLoadAlbumPhotoTask.java" />
+        <ignore path="src\com\sns\view\UpdatePersonalActivity.java" />
+    </issue>
+</lint>

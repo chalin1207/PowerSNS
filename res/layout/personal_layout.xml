@@ -1,0 +1,247 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".OpenActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#354248"
+        android:gravity="center" 
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="个人信息"
+            android:textColor="#9dc5d1"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp" >
+
+            <Button
+                android:id="@+id/btn_zhuxiao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="注销"
+                android:textColor="#9dc5d1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" 
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/photoFace"
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:src="@drawable/header" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="昵称："
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="渣渣琪"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/ic_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_male" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="心情："
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_xin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="暂无心情~"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tv_adress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="暂无地址~"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <Button
+            android:id="@+id/update_mess"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="改资料" />
+
+        <Button
+            android:id="@+id/update_pass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="改密码" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.96"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp" 
+             android:layout_weight="1"
+             android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/IB_blog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_ic_album" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp" 
+             android:layout_weight="1"
+             android:layout_marginTop="-6dp" >
+
+            <ImageButton
+                android:id="@+id/IB_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_ic_blog" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp" 
+             android:layout_weight="1"
+             android:layout_marginTop="-6dp" >
+
+            <ImageButton
+                android:id="@+id/IB_friend"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.00"
+                android:src="@drawable/main_ic_music" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="-6dp" >
+
+            <ImageButton
+                android:id="@+id/IB_friends_free"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_ic_friend" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" 
+            android:layout_marginTop="-6dp">
+
+            <ImageButton
+                android:id="@+id/IB_vis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_ic_friend_feed" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" 
+            android:layout_marginTop="-6dp">
+
+            <ImageButton
+                android:id="@+id/IB_music"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_ic_visitor" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
